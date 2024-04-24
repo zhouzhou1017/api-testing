@@ -141,9 +141,6 @@ var expectedCookieRequestGoCode string
 //go:embed testdata/expected_java_cookie_request_code.txt
 var expectedCookieRequestJavaCode string
 
-//go:embed testdata/expected_go_body_request_code.txt
-var expectedBodyRequestGoCode string
-
 //go:embed testdata/expected_python_code.txt
 var expectedPythonCode string
 
@@ -152,3 +149,6 @@ var expectedFormRequestPythonCode string
 
 //go:embed testdata/expected_python_cookie_request_code.txt
 var expectedCookieRequestPythonCode string
+
+//go:embed testdata/expected_go_body_request_code.txt
+var expectedBodyRequestGoCode string
